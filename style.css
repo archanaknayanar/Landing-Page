@@ -3,7 +3,8 @@ body {
 }
 /*********NAV***********/
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -19,17 +20,21 @@ nav {
 
       
   }
+  .nav-items li  {
+    margin-right: 100px;
+    display: flex;
+    list-style: none;
+    padding-right: 7px;
+    padding-left: 7px;
 
-  nav ul {
-      display: flex;
-  }
+}
+
+  
   nav .logo {
       font-size: 50px;
       font-family: "Poppins", sans-serif;
   }
-  .nav-items li {
-      margin-right: 100px;
-  }
+ 
 
   .go-btn {
       margin-right: 10px;
